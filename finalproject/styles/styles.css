@@ -229,6 +229,8 @@ The .slide a {position: absolute;
     background: #dd1111;
     padding: 10px 10px;
     position: relative;
+    z-index: 1000; 
+    /* Add the z index because the education abroad was not clickable */
 }
 
 /* NAV LINKS */
@@ -383,6 +385,9 @@ The .slide a {position: absolute;
     I later changed to auto after discovering manual setting causes distortion*/
     max-width: 1260px; /* When i from max to min the edges reach the extreme */
     gap:0px;
+    position: relative;
+    z-index: 1; 
+    /* Testing to see if this will make the Education Abroad become clickable */
 }
 
 /* Left: Hero Image */
