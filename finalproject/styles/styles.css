@@ -257,7 +257,7 @@ The .slide a {position: absolute;
 .nav-links a:hover {
     /* hover effect */
      color: #ffff00;
-    transform: scale(1.15);
+    transform: scale(1.10);
     /* magnifies by 10% */
 }
 
